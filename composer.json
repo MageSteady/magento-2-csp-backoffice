@@ -1,0 +1,41 @@
+{
+    "name": "magesteady/magento-2-csp-backoffice",
+    "version": "0.0.1",
+    "license": "GPL-3.0-only",
+    "type": "magento2-module",
+    "homepage": "https://github.com/MageSteady/magento-2-csp-backoffice",
+    "description": "Magento 2 module allowing you to manage and edit the Content Security Policies (CSP) directly from the backoffice",
+    "keywords": [
+        "magento",
+        "magesteady",
+        "csp",
+        "content security policy"
+    ],
+    "authors": [
+        {
+            "name": "MageSteady",
+            "email": "contact@magesteady.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MageSteady\\CspBackoffice\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/MageSteady"
+        },
+        {
+            "type": "other",
+            "url": "https://buymeacoffee.com/magesteady"
+        }
+    ]
+}
